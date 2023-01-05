@@ -24,9 +24,3 @@ ques1 <- mat[3:9,8]
 ques2 <- mat[3:9,8:12]
 ques3 <- mat[3:9,c(5,8,12)]
 
-# more better approach to find submatrix
-ques1 <- mat[Jan,Jan]
-
-
-
-
