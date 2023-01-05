@@ -15,8 +15,18 @@ DEc <- c(0,2,1,1,0,0,2,2,0,0,0,0)
 # making the matrix
 mat <- matrix(c(Jan,Feb,March,April,May, JUne,JUly,August,SEp,Oct,Nov,DEc),nrow=12,ncol=12)
 
+# naming the rows and columns
+row.names(mat) <- month.abb
+colnames(mat) <- month.abb
+
 # creating the submatrix
 ques1 <- mat[3:9,8]
 ques2 <- mat[3:9,8:12]
 ques3 <- mat[3:9,c(5,8,12)]
+
+# more better approach to find submatrix
+ques1 <- mat[Jan,Jan]
+
+
+
 
