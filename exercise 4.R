@@ -1,0 +1,5 @@
+a <- c(-5,-2,2,1,-1,5,5,3,3,-4,0,-3,-1,2,-1,-1,-5,-3,-2,-3,4,5,-2,-3,-4)
+mat <- matrix(a,5,5)
+library(matlib)
+inv(mat)
+fractions(inv(mat))
